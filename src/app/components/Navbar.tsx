@@ -2,16 +2,18 @@ import { JSX, SVGProps } from "react"
 
 export default function Component() {
   return (
-    <nav className="bg-[#333333] px-4 py-2 flex justify-between items-center">
-      <div className="flex items-center space-x-4">
+    <nav className="bg-[#333333] px-4 py-2 flex justify-between items-center max-w-screen h-20">
+      <div className="flex items-center space-x-4 pl-1 md-pl-3">
         <CastleIcon />
-        <span className="text-xl font-bold text-white">React Rooks</span>
+        <span className="text-3xl font-bold text-white">React Rooks</span>
       </div>
       <div className="flex items-center space-x-8">
         {/* <button className="text-white">
           Play Online
         </button> */}
-        <button className="text-white pr-40">
+        <button className="text-white text-2xl
+        pr-5
+        md:pr-14">
           Login
         </button>
       </div>
